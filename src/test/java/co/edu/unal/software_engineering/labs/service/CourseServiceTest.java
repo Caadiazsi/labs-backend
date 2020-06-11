@@ -33,7 +33,7 @@ public class CourseServiceTest{
 
         assertEquals( course.getCourseName( ), pojo.getCourseName( ) );
         assertEquals( course.getDurationHours( ), pojo.getDurationHours( ) );
-
+        assertEquals( "test exitoso", "test exitoso");
     }
 
 }
